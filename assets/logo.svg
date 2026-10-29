@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-45 7 590 590" role="img" aria-label="Tabularia" shape-rendering="geometricPrecision">
+  <title>Tabularia</title>
+  <!--
+    public/brand/tabularia-mark-compact.svg with the ribbon in the panels'
+    gold, as in openai-plugin/assets/logo.png: Cursor's marketplace is dark,
+    and the navy ribbon disappears against it.
+  -->
+  <defs>
+    <linearGradient id="tabularia-compact-gold" gradientUnits="userSpaceOnUse" x1="95" y1="20" x2="405" y2="585">
+      <stop offset="0" stop-color="#ffe3a0" />
+      <stop offset="0.42" stop-color="#ffd17a" />
+      <stop offset="1" stop-color="#e9a94f" />
+    </linearGradient>
+    <linearGradient id="tabularia-compact-gold-dot" gradientUnits="userSpaceOnUse" x1="459" y1="286" x2="477" y2="304">
+      <stop offset="0" stop-color="#ffe3a0" />
+      <stop offset="1" stop-color="#e9a94f" />
+    </linearGradient>
+    <linearGradient id="tabularia-compact-ribbon" gradientUnits="userSpaceOnUse" x1="14" y1="405" x2="464" y2="315">
+      <stop offset="0" stop-color="#ffe3a0" />
+      <stop offset="0.5" stop-color="#ffd17a" />
+      <stop offset="1" stop-color="#e9a94f" />
+    </linearGradient>
+  </defs>
+  <g
+    class="tabularia-compact-panels"
+    fill="none"
+    stroke="url(#tabularia-compact-gold)"
+    stroke-width="22"
+    stroke-linecap="square"
+    stroke-linejoin="round"
+  >
+    <path d="M 210 89 L 210 18 L 434 140 L 434 507 L 362.016 468.299 L 347 460" />
+    <path d="M 136 127 L 136 60 L 341 169 L 341 531 L 272.185 493.316 L 263 487" />
+    <path d="M 73 102 L 257 205 L 257 586 L 73 483 Z" />
+  </g>
+  <path
+    class="tabularia-compact-ribbon"
+    d="M 14 387 C 40 399, 82 412, 126 413 C 170 414, 219 397, 268 375 C 318 352, 367 325, 408 311 C 427 305, 447 307, 464 319 C 455 316, 446 313, 435 313 C 409 314, 382 327, 350 344 C 302 370, 253 395, 207 413 C 158 431, 105 427, 61 416 C 41 411, 24 400, 14 388 Z"
+    fill="url(#tabularia-compact-ribbon)"
+  />
+  <circle
+    class="tabularia-compact-dot"
+    cx="468"
+    cy="295"
+    r="17"
+    fill="url(#tabularia-compact-gold-dot)"
+  />
+</svg>

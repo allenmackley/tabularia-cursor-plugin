@@ -1,0 +1,19 @@
+{
+  "name": "tabularia",
+  "description": "Read and revise your book, article, or script in Tabularia, the writing studio, with changes in drafts you review and merge when you choose.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Mackley Studios"
+  },
+  "homepage": "https://tabularia.app",
+  "repository": "https://github.com/allenmackley/tabularia-cursor-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["writing", "editing", "novel", "manuscript", "screenplay", "nonfiction", "fiction"],
+  "logo": "assets/logo.svg",
+  "skills": "skills/",
+  "mcpServers": {
+    "tabularia": {
+      "url": "https://mcp.tabularia.app"
+    }
+  }
+}
