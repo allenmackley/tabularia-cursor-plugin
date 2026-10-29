@@ -9,11 +9,5 @@
   "repository": "https://github.com/allenmackley/tabularia-cursor-plugin",
   "license": "Apache-2.0",
   "keywords": ["writing", "editing", "novel", "manuscript", "screenplay", "nonfiction", "fiction"],
-  "logo": "assets/logo.svg",
-  "skills": "skills/",
-  "mcpServers": {
-    "tabularia": {
-      "url": "https://mcp.tabularia.app"
-    }
-  }
+  "logo": "assets/logo.svg"
 }
